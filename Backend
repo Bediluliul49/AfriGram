@@ -1,0 +1,13 @@
+Steps for backend:
+    a. Initialize a Node.js project in the `backend` directory.
+    b. Install required packages: express, mongoose, jsonwebtoken, socket.io, twilio (or other SMS provider), dotenv, etc.
+    c. Set up a basic Express server.
+    d. Connect to MongoDB (we can use MongoDB Atlas for cloud database).
+    e. Define User and Message models.
+    f. Implement routes for:
+        - Sending OTP
+        - Verifying OTP and registering/logging in
+        - Fetching user profile
+        - Sending a message (via HTTP and then via Socket.IO for real-time)
+        - Fetching message history for a chat
+    g. Set up Socket.IO to broadcast messages to the intended recipient.
