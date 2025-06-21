@@ -1,0 +1,9 @@
+a. Create a new Flutter project in the `mobile` directory.
+b. Add dependencies: http for API calls, socket_io_client for real-time, and others for state management (like provider or bloc).
+c. Design the screens:
+    - LoginScreen (phone number input)
+    - OTPScreen
+    - HomeScreen (list of contacts/chats)
+    - ChatScreen
+d. Implement API calls to the backend for authentication and fetching data.
+e. Implement Socket.IO client to listen for new messages.
